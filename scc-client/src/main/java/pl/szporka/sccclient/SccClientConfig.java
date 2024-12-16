@@ -16,12 +16,14 @@ public class SccClientConfig {
   @Value("${scc.message}")
   private String sccMessage;
 
-
+  @Value("${scc.secret}")
+  private String sccSecret;
 
   @PostConstruct
   public void init() {
     System.out.println("Application name: " + appName);
     System.out.println("Profiles: " + profiles);
     System.out.println("SCC message: " + sccMessage);
+    System.out.println("SCC secret: " + sccSecret);
   }
 }
