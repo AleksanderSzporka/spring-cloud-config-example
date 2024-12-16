@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: scc-client
+  config:
+    import: "configserver:"
+
+management:
+  endpoint:
+    env:
+      show-values: always
+  endpoints:
+    web:
+      exposure:
+        include: "env"

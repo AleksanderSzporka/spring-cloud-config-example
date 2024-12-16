@@ -1,6 +1,25 @@
 spring:
   application:
     name: scc-server
+  profiles:
+    active: native
+  cloud:
+    config:
+      server:
+        native:
+          search-locations: file://${user.home}/IdeaProjects/spring-cloud-config-poc/spring-cloud-config-example/scc-filesystem
+#        git:
+#          uri: file://${user.home}/IdeaProjects/spring-cloud-config-demo
+#          clone-on-start: true
 server:
   port: 8888
-spring.cloud.config.server.git.uri: file://${user.home}/config-repo
+management:
+  endpoint:
+    env:
+      show-values: always
+  endpoints:
+    web:
+      exposure:
+        include: "env"
+mcc:
+  server-message: "Hello from the server!"
