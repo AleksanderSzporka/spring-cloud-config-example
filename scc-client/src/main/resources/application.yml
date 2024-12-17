@@ -5,10 +5,7 @@ spring:
     import: "configserver:"
 
 management:
-  endpoint:
-    env:
-      show-values: always
   endpoints:
     web:
       exposure:
-        include: "env, refresh"
+        include: "refresh"
