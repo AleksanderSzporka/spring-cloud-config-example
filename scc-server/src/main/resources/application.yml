@@ -8,7 +8,8 @@ spring:
       server:
         native:
 #          search-locations: file://${user.home}/IdeaProjects/spring-cloud-config-poc/spring-cloud-config-example/scc-filesystem/{application}/{profile}
-          search-locations: file://${user.home}/IdeaProjects/spring-cloud-config-poc/spring-cloud-config-example/scc-filesystem/
+#          search-locations: file://${user.home}/IdeaProjects/spring-cloud-config-poc/spring-cloud-config-example/scc-filesystem/
+          search-locations: file:///C:\!Dev\spring-cloud-config-example\scc-filesystem
 #        git:
 #          uri: file://${user.home}/IdeaProjects/spring-cloud-config-demo
 #          clone-on-start: true
