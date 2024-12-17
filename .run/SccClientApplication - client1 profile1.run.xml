@@ -1,0 +1,14 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="SccClientApplication - client1 profile1" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+    <option name="ACTIVE_PROFILES" value="profile1" />
+    <envs>
+      <env name="spring.application.name" value="client1" />
+      <env name="server.port" value="9992" />
+    </envs>
+    <module name="scc-client" />
+    <option name="SPRING_BOOT_MAIN_CLASS" value="pl.szporka.sccclient.SccClientApplication" />
+    <method v="2">
+      <option name="Make" enabled="true" />
+    </method>
+  </configuration>
+</component>

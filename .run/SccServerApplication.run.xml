@@ -1,0 +1,22 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="SccServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+    <additionalParameters>
+      <param>
+        <option name="enabled" value="true" />
+        <option name="name" value="management.endpoint.env.show-values" />
+        <option name="value" value="when_authorized" />
+      </param>
+    </additionalParameters>
+    <module name="scc-server" />
+    <option name="SPRING_BOOT_MAIN_CLASS" value="pl.szporka.sccserver.SccServerApplication" />
+    <extension name="coverage">
+      <pattern>
+        <option name="PATTERN" value="pl.szporka.sccserver.*" />
+        <option name="ENABLED" value="true" />
+      </pattern>
+    </extension>
+    <method v="2">
+      <option name="Make" enabled="true" />
+    </method>
+  </configuration>
+</component>
